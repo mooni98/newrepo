@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-top: 20%;
+    background-color: rgb(150, 176, 185) ;
+    height: 100vh;
+
+}
+
+.bmi-card{
+    width: 100%;
+    max-width: 400px;
+    background-color: hsla(180, 100%, 50%, 0.441);
+    border: none;
+    border-radius: 20px;
+    padding: 30px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(22, 53, 56);
+}
+
+
+
+label{
+    display: block;
+    font-size: 25px;
+    margin: 5px;
+}
+input{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: aquamarine;
+    color:  rgb(22, 53, 56);
+}
+
+.calculate{
+    margin-top: 20px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: hwb(30 10% 10%);
+    color:  rgb(22, 53, 56);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+
+}
+
+.result{
+    padding: 30px;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(44, 92, 66);
+}
